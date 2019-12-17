@@ -1,0 +1,60 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:promise/recommended"
+  ],
+  "parser": "babel-eslint",
+  "rules": {
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "no-unused-vars": "off",
+    "no-console": "off",
+    "indent": "off",
+    "no-undef": "off",
+    "no-control-regex": "off",
+    "no-useless-escape": "off",
+    "no-case-declarations": "off",
+    "no-constant-condition": "off",
+    "no-fallthrough": "off",
+    "no-extra-boolean-cast": "off",
+    "no-empty": "off",
+    "no-self-assign": "off",
+    "no-redeclare": "off",
+    "no-unreachable": "off",
+    "no-cond-assign": "off",
+    "no-unused-labels": "off",
+    "no-mixed-spaces-and-tabs": "off",
+    "import/no-duplicates": "off",
+    "import/named": "off",
+    "import/default": "off",
+    "import/no-named-as-default": "off",
+    "import/no-unresolved": "off",
+    "react/display-name": "off",
+    "react/prop-types": "off",
+    "react/no-direct-mutation-state": "off",
+    "react/no-string-refs": "off",
+    "react/jsx-no-undef": "off",
+    "react/no-unescaped-entities": "off",
+    "react/jsx-no-target-blank": "off",
+    "promise/always-return": "off",
+    "promise/no-callback-in-promise": "off",
+    "promise/catch-or-return": "off",
+    "promise/no-nesting": "off",
+    "promise/no-new-statics": "off"
+  },
+  "settings": {
+    "react": {
+      "version": "16.5"
+    }
+  }
+}

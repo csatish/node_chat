@@ -1,0 +1,35 @@
+<div style="width:100%; max-width:400px; min-width:300px; background-color: #fff;">
+    <h2 style="text-align: center;">Create Account</h2>
+    <form style="width:80%; margin:20px auto; text-align: center;" action="/auth/signup" method="post">
+        <input class="height40 w100pc borderBox bdr1"
+               style="padding-left:5px"
+               type="text"
+               name="firstName"
+               placeholder="First Name"
+               required />
+        <input class="height40 w100pc borderBox bdr1"
+               style="padding-left:5px"
+               type="text"
+               name="lastName"
+               placeholder="Last Name"
+               required />
+        <input class="height40 w100pc borderBox bdr1"
+               style="padding-left:5px"
+               type="text"
+               name="loginName"
+               placeholder="Login Id"
+               required />
+        <input class="height40 w100pc borderBox bdr1"
+               style="padding-left:5px"
+               type="password"
+               name="password"
+               placeholder="Password"
+               required />
+        <button class="height40 borderBox margin10 bdr1"
+                style="width:100px;"
+                type="submit">
+            Sign Up
+        </button>
+    </form>
+    <a class="margin10" href="/auth/login" style="float:right;">Sign In</a>
+</div>

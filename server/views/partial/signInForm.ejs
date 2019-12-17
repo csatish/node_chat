@@ -1,0 +1,22 @@
+<div style="width:100%; max-width:400px; min-width:300px; background-color: #fff;">
+    <h2 style="text-align: center;">Account login</h2>
+    <form style="width:80%; margin:20px auto; text-align: center;" action="/auth/login" method="post"> <!-- center - for button-->
+        <input name="loginName" class="height40 w100pc borderBox bdr1"
+               style=" padding-left:5px"
+               type="text"
+               placeholder="Login Id"
+               required/>
+        <input name="password" class="height40 w100pc borderBox bdr1"
+               style="padding-left:5px"
+               type="password"
+               placeholder="Password"
+               required />
+        <button class="height40 borderBox margin10 bdr1"
+                style="width:100px;"
+                type="submit">
+            Login
+        </button>
+    </form>
+    <a class="margin10" href="/auth/forgotPwd" style="float:left;">Forgot Password</a>
+    <a class="margin10" href="/auth/signup" style="float:right;">Sign Up</a>
+</div>

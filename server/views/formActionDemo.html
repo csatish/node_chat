@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Javascript and Forms</title>
+    <script type="text/javascript">
+        function submitForm()
+        {
+            document.myForm.submit();
+        }
+
+        function formAction()
+        {
+            document.newForm.action = "http://google.com";
+        }
+    </script>
+</head>
+<body>
+<p>
+    Example 1: Submitting form through Javascript
+<form name="myForm" action="http://google.com" method="get">
+    Search: <input type="text" name="q" />
+    <button onclick="javascript: submitForm()">Search</button>
+</form>
+</p>
+
+<p>
+    Example 2: Changing form action through Javascript
+<form name="newForm" method="get" onSubmit="formAction(this)">
+    Search: <input type="text" name="q" />
+    <input type="submit" name="search" value="Search">
+</form>
+</p>
+</body>
+</html>
